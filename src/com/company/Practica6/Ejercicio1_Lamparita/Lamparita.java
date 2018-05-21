@@ -2,6 +2,11 @@ package com.company.Practica6.Ejercicio1_Lamparita;
 
 /**
  * Created by lmatello on 21/05/2018.
+ *
+ * Implemente la clase Lamparita, que sirva para representar el estado de encendido de una lamparita (encendido o apagado).
+ * Defina, asimismo, dos métodos que permitan encender y apagar la luz de la lamparita y otro que indique en qué estado se encuentra.
+ * La lamparita inicialmente está apagada.
+ *
  */
 public class Lamparita {
 
