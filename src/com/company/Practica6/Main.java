@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Practica6;
 
 import com.company.Practica6.Ejercicio1_Lamparita.Lamparita;
 
