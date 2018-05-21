@@ -10,9 +10,13 @@ public class Main {
 
         //Ejercicio 1
         Lamparita lamparita = new Lamparita();
-        System.out.printf(String.valueOf(lamparita.getEstado()));
+        System.out.println(String.valueOf(lamparita.getEstado()));
 
-        lamparita.prender();
-        System.out.printf(String.valueOf(lamparita.getEstado()));
+        lamparita.encender();
+        System.out.println(String.valueOf(lamparita.getEstado()));
+
+        lamparita.apagar();
+        System.out.println(String.valueOf(lamparita.getEstado()));
+
     }
 }
