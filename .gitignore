@@ -1,3 +1,10 @@
+target/
+test-output/
+.idea/
+*.html
+*.iml
+*.DS_Store
+
 # Compiled class file
 *.class
 
