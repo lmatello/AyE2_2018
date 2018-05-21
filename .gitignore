@@ -4,6 +4,7 @@ test-output/
 *.html
 *.iml
 *.DS_Store
+out/
 
 # Compiled class file
 *.class
