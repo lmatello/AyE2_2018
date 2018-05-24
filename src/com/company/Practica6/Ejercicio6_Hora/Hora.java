@@ -1,4 +1,4 @@
-package com.company.Practica6.Ejercicio6;
+package com.company.Practica6.Ejercicio6_Hora;
 
 /**
  * Created by lmatello on 21/05/2018.

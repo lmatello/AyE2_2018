@@ -1,7 +1,9 @@
 package com.company.Practica6;
 
 import com.company.Practica6.Ejercicio1_Lamparita.Lamparita;
-import com.company.Practica6.Ejercicio6.Hora;
+import com.company.Practica6.Ejercicio6_Hora.Hora;
+import com.company.Practica6.Ejercicio7_Empleado.Empleado;
+import com.company.Practica6.Ejercicio8_Punto.Punto;
 
 public class Main {
 
@@ -33,5 +35,21 @@ public class Main {
         //haciendolo sin STATIC
         h1.sumar(h2);
         System.out.println("La suma de hora y hora2 es:" + h1);
+
+        //Ejercicio 7 - EMPLEADO
+
+        Empleado emp1 = new Empleado(001, "Simon Millan");
+        emp1.verDatos();
+
+        //Ejercicio 8 - PUNTO
+
+        Punto punto1 = new Punto(2.5F,5.0F);
+        Punto punto2 = new Punto(2.5F,10.0F);
+
+        Punto punto3 = punto1.sumar(punto2);
+        punto3.verDatos();
+
+        System.out.println("Punto 1 es igual a punto 2? : " + punto1.esIgual(punto2));
+
     }
 }
