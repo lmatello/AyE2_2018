@@ -5,8 +5,9 @@ package com.company.Practica6.Ejercicio8_Punto;
  */
 public class Punto {
 
-    private float x;
-    private float y;
+    //Las ponemos protected para usarlas en Vector3D
+    protected float x;
+    protected float y;
 
     public Punto(float x, float y) {
         this.x = x;
