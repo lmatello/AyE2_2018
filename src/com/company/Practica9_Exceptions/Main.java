@@ -1,5 +1,8 @@
 package com.company.Practica9_Exceptions;
 
+import com.company.Practica9_Exceptions.Ejercicio3_Matricula.MatriculaAuto;
+import com.company.Practica9_Exceptions.Ejercicio3_Matricula.MatriculaAutoException;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -72,6 +75,35 @@ public class Main {
         }
 
         System.out.println("Termina OK");
+
+
+        // Ejercicio 3 - MatriculaAuto
+
+        MatriculaAuto mat;
+
+        try {
+            // mat = new MatriculaAuto('A', "12345678");
+            mat = new MatriculaAuto('A', "12X45678");
+            // mat = new MatriculaAuto('z', "12345678");
+            System.out.println(mat);
+
+        } catch (MatriculaAutoException e) {
+            System.out.println("Error de instanciacion" + e);
+            e.printStackTrace();
+        } catch (NumberFormatException e){
+            System.out.println("Error en formato de numero");
+        }
+
+        // Version con validacion por metodos
+
+        MatriculaAuto mat2 = new MatriculaAuto();
+        mat2.setLetra('B');
+        mat2.setNumero("87654321");
+
+        if (mat2.esValido()){
+            System.out.println(mat2);
+        }
+
     }
 
 }
